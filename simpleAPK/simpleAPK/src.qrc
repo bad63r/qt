@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/files">
+        <file>sources/questions_list.txt</file>
+        <file>sources/pngwing.com.png</file>
+    </qresource>
+</RCC>
