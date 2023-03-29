@@ -1,15 +1,21 @@
 #include "quewindow.h"
 #include "ui_quewindow.h"
 
-queWindow::queWindow(QWidget *parent) :
+#include <QDebug>
+
+
+
+queWindow::queWindow(QWidget *parent, DbManager * dbPtr) :
     QDialog(parent),
     ui(new Ui::queWindow)
 {
     ui->setupUi(this);
 
-    qMenu_init();
-
     on_next_pushButton_clicked();
+
+    //db = new DbManager("/home/bad63r/github/qt/simpleAPK/simpleAPK/database/scoreboard.db");
+    db = dbPtr;
+
 }
 
 queWindow::~queWindow()
@@ -17,11 +23,11 @@ queWindow::~queWindow()
     delete ui;
 }
 
-void queWindow::qMenu_init(){
-    QPixmap pix(":/files/sources/pngwing.com.png");
-    int w = ui->labelQMenu->width();
-    int h = ui->labelQMenu->height();
-    ui->labelQMenu->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
+void queWindow::SetMoneyTreePicture(int moneyLvl){
+    QPixmap pix(MtImgPathList[moneyLvl]);
+    int w = ui->labelMoneyTree->width();
+    int h = ui->labelMoneyTree->height();
+    ui->labelMoneyTree->setPixmap(pix.scaled(w,h,Qt::KeepAspectRatio));
 }
 
 void queWindow::on_next_pushButton_clicked()
@@ -33,6 +39,8 @@ void queWindow::on_next_pushButton_clicked()
     QString readLine1;
     QString readLine2;
     QString var;
+
+    db->addPerson("beta",0);
 
     if(!questions_list.open(QFile::ReadOnly |
                             QFile::Text))
@@ -64,6 +72,7 @@ void queWindow::on_next_pushButton_clicked()
     //QMessageBox::information(this,"title",question);
     ui->qTitle_label->setText("Question " + QString::number(q_num));
     ui->question->setText(question);
+    SetMoneyTreePicture(q_num-1);
     QStringList ans_list = ans.split(';');
     ui->a1_pushButton->setText(ans_list[0]);
     ui->a2_pushButton->setText(ans_list[1]);

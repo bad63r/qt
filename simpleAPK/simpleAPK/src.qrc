@@ -1,6 +1,21 @@
 <RCC>
     <qresource prefix="/files">
         <file>sources/questions_list.txt</file>
-        <file>sources/pngwing.com.png</file>
+        <file>sources/treeL1.png</file>
+        <file>sources/treeL2.png</file>
+        <file>sources/treeL3.png</file>
+        <file>sources/treeL4.png</file>
+        <file>sources/treeL5.png</file>
+        <file>sources/treeL6.png</file>
+        <file>sources/treeL7.png</file>
+        <file>sources/treeL8.png</file>
+        <file>sources/treeL9.png</file>
+        <file>sources/treeL10.png</file>
+        <file>sources/treeL11.png</file>
+        <file>sources/treeL12.png</file>
+        <file>sources/treeL13.png</file>
+        <file>sources/treeL14.png</file>
+        <file>sources/treeL15.png</file>
+        <file>database/scoreboard.db</file>
     </qresource>
 </RCC>

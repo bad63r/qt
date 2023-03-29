@@ -1,6 +1,9 @@
 #include "window.h"
 
 #include <QApplication>
+#include <QDebug>
+
+
 
 int main(int argc, char *argv[])
 {
@@ -8,5 +11,6 @@ int main(int argc, char *argv[])
     Window w;
     w.show();
     return a.exec();
+
 
 }

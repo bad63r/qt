@@ -6,3 +6,29 @@ Co Beta robi?
 Brese;Tancuje;Spiva;Opravja traktor
 Опробуєме чи тото роби?
 гей;нє;вчера;Яk да нє
+Which color is my car?
+Green;Black;Orange;Purple
+This is just an example?
+1;2;3h;4
+Are we billioners?
+Not Yet;Soon;Yeah we are!;Noup
+Who is your creator?
+Tom;Mirko;Andy;Sasa
+Dze ziju rusnaci?
+RK;Pirot;Prijepolje;Stara Pazova
+Co Beta robi?
+Brese;Tancuje;Spiva;Opravja traktor
+Опробуєме чи тото роби?
+гей;нє;вчера;Яk да нє
+Which color is my car?
+Green;Black;Orange;Purple
+This is just an example?
+1;2;3h;4
+Are we billioners?
+Not Yet;Soon;Yeah we are!;Noup
+Which color is my car?
+Green;Black;Orange;Purple
+This is just an example?
+1;2;3h;4
+Are we billioners?
+Not Yet;Soon;Yeah we are!;Noup

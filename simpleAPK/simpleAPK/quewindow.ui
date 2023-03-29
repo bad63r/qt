@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>720</width>
-    <height>386</height>
+    <height>420</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -292,7 +292,7 @@
       </spacer>
      </item>
      <item>
-      <widget class="QLabel" name="labelQMenu">
+      <widget class="QLabel" name="labelMoneyTree">
        <property name="minimumSize">
         <size>
          <width>250</width>

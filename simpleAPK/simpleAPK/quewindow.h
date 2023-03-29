@@ -7,6 +7,8 @@
 #include <QMessageBox>
 #include <QPixmap>
 
+#include <dbmanager.h>
+
 namespace Ui {
 class queWindow;
 }
@@ -16,9 +18,9 @@ class queWindow : public QDialog
     Q_OBJECT
 
 public:
-    explicit queWindow(QWidget *parent = nullptr);
+    explicit queWindow(QWidget *parent = nullptr, DbManager *dbPtr = nullptr);
     ~queWindow();
-    void qMenu_init();
+    void SetMoneyTreePicture(int moneyLvl);
 
 private slots:
 
@@ -38,6 +40,25 @@ private:
     int counter = 0;
     int q_num = 1;
     QString correctAns;
+    QStringList MtImgPathList = {":/files/sources/treeL1.png",
+                                 ":/files/sources/treeL2.png",
+                                 ":/files/sources/treeL3.png",
+                                 ":/files/sources/treeL4.png",
+                                 ":/files/sources/treeL5.png",
+                                 ":/files/sources/treeL6.png",
+                                 ":/files/sources/treeL7.png",
+                                 ":/files/sources/treeL8.png",
+                                 ":/files/sources/treeL9.png",
+                                 ":/files/sources/treeL10.png",
+                                 ":/files/sources/treeL11.png",
+                                 ":/files/sources/treeL12.png",
+                                 ":/files/sources/treeL13.png",
+                                 ":/files/sources/treeL14.png",
+                                 ":/files/sources/treeL15.png",};
+    DbManager *db;
+
 };
+
+
 
 #endif // QUEWINDOW_H

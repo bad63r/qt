@@ -3,6 +3,11 @@
 
 #include <QWidget>
 #include "quewindow.h"
+#include <QtSql>
+
+#include <QMessageBox>
+
+#include <dbmanager.h>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Window; }
@@ -24,5 +29,7 @@ private slots:
 private:
     Ui::Window *ui;
     queWindow *queDialog;
+    QString username;
+    DbManager *db;
 };
 #endif // WINDOW_H
