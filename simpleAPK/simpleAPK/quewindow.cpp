@@ -5,16 +5,16 @@
 
 
 
-queWindow::queWindow(QWidget *parent, DbManager * dbPtr) :
+queWindow::queWindow(QWidget *parent, QString username_data) :
     QDialog(parent),
     ui(new Ui::queWindow)
 {
     ui->setupUi(this);
 
-    on_next_pushButton_clicked();
+    username = username_data;
+    db = new DbManager("/home/bad63r/github/qt/simpleAPK/simpleAPK/database/scoreboard.db");
 
-    //db = new DbManager("/home/bad63r/github/qt/simpleAPK/simpleAPK/database/scoreboard.db");
-    db = dbPtr;
+    on_next_pushButton_clicked();
 
 }
 
@@ -40,7 +40,6 @@ void queWindow::on_next_pushButton_clicked()
     QString readLine2;
     QString var;
 
-    db->addPerson("beta",0);
 
     if(!questions_list.open(QFile::ReadOnly |
                             QFile::Text))
@@ -98,6 +97,11 @@ void queWindow::on_a1_pushButton_clicked()
          ui->a1_pushButton->setStyleSheet("background-color: green");
     } else {
          ui->a1_pushButton->setStyleSheet("background-color: red");
+         if (db->isOpen()) {
+             db->addPerson(username,moneyPool[q_num-3]);
+         }
+
+         QApplication::quit();
     }
 }
 
@@ -107,6 +111,11 @@ void queWindow::on_a2_pushButton_clicked()
          ui->a2_pushButton->setStyleSheet("background-color: green");
     } else {
          ui->a2_pushButton->setStyleSheet("background-color: red");
+         if (db->isOpen()) {
+             db->addPerson(username,moneyPool[q_num-3]);
+         }
+
+         QApplication::quit();
     }
 }
 
@@ -116,6 +125,12 @@ void queWindow::on_a3_pushButton_clicked()
          ui->a3_pushButton->setStyleSheet("background-color: green");
     } else {
          ui->a3_pushButton->setStyleSheet("background-color: red");
+         if (db->isOpen()) {
+             db->addPerson(username,moneyPool[q_num-3]);
+         }
+
+         QApplication::quit();
+
     }
 }
 
@@ -125,5 +140,10 @@ void queWindow::on_a4_pushButton_clicked()
          ui->a4_pushButton->setStyleSheet("background-color: green");
     } else {
          ui->a4_pushButton->setStyleSheet("background-color: red");
+         if (db->isOpen()) {
+             db->addPerson(username,moneyPool[q_num-3]);
+         }
+
+         QApplication::quit();
     }
 }

@@ -18,7 +18,7 @@ class queWindow : public QDialog
     Q_OBJECT
 
 public:
-    explicit queWindow(QWidget *parent = nullptr, DbManager *dbPtr = nullptr);
+    explicit queWindow(QWidget *parent = nullptr, QString username = "");
     ~queWindow();
     void SetMoneyTreePicture(int moneyLvl);
 
@@ -56,6 +56,8 @@ private:
                                  ":/files/sources/treeL14.png",
                                  ":/files/sources/treeL15.png",};
     DbManager *db;
+    QString username;
+    int moneyPool[15] = {100, 200, 300, 500, 1000, 2000, 4000, 8000, 16000, 25000, 50000, 100000, 250000, 500000, 1000000};
 
 };
 

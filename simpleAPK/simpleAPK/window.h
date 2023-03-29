@@ -29,7 +29,6 @@ private slots:
 private:
     Ui::Window *ui;
     queWindow *queDialog;
-    QString username;
-    DbManager *db;
+    QString username_data;
 };
 #endif // WINDOW_H
