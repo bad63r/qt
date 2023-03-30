@@ -30,5 +30,6 @@ private:
     Ui::Window *ui;
     queWindow *queDialog;
     QString username_data;
+    DbManager * db_start;
 };
 #endif // WINDOW_H

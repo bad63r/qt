@@ -5,14 +5,14 @@
 
 
 
-queWindow::queWindow(QWidget *parent, QString username_data) :
+queWindow::queWindow(QWidget *parent, QString username_data, DbManager *dbPtr) :
     QDialog(parent),
     ui(new Ui::queWindow)
 {
     ui->setupUi(this);
 
     username = username_data;
-    db = new DbManager("/home/bad63r/github/qt/simpleAPK/simpleAPK/database/scoreboard.db");
+    db = dbPtr;
 
     on_next_pushButton_clicked();
 

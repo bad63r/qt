@@ -18,7 +18,7 @@ class queWindow : public QDialog
     Q_OBJECT
 
 public:
-    explicit queWindow(QWidget *parent = nullptr, QString username = "");
+    explicit queWindow(QWidget *parent = nullptr, QString username = "", DbManager *dbPtr=nullptr);
     ~queWindow();
     void SetMoneyTreePicture(int moneyLvl);
 
