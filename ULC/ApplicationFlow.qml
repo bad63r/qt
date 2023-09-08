@@ -1,5 +1,7 @@
 import QtQuick
 
-ApplicationFlowForm {
-
+Item {
+    SideBar{
+        heightOfSideBar: parent.height
+    }
 }

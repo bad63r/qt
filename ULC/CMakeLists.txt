@@ -28,7 +28,6 @@ set(qml_resources_files
     "Main.qml"
     "ApplicationWindow.qml"
     "ApplicationFlow.qml"
-    "ApplicationFlowForm.qml"
     "SideBar.qml"
     "SideBarForm.qml"
     "CmdButton.qml"

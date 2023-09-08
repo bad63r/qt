@@ -7,5 +7,7 @@ ApplicationWindow{
     title: qsTr("UART LED Controller")
 
     ApplicationFlow{
+        width: parent.width
+        height: parent.height
     }
 }

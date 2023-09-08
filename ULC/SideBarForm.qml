@@ -13,16 +13,17 @@ Flickable {
     property alias command3Button: command3Button
     property alias command4Button: command4Button
 
+
     contentWidth: 250
     boundsBehavior: Flickable.StopAtBounds
-    contentHeight: 1506
+    contentHeight: 1400
     clip: true
 
     Rectangle {
         id: background
         x: 0
-        width: 354
-        height: 1506
+        width: flickable.width
+        height: flickable.contentHeight
         color: "#D3D3D3"
         //color: background.palette.window
     }
