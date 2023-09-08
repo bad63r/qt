@@ -27,6 +27,16 @@ target_link_libraries(appULC
 set(qml_resources_files
     "Main.qml"
     "ApplicationWindow.qml"
+    "ApplicationFlow.qml"
+    "ApplicationFlowForm.qml"
+    "SideBar.qml"
+    "SideBarForm.qml"
+    "CmdButton.qml"
+    "images/icons/terminal/terminal1.png"
+    "images/icons/terminal/terminal2.png"
+    "images/icons/terminal/terminal3.png"
+    "images/icons/terminal/terminal4.png"
+
 )
 
 qt6_add_resources(appULC "qml"
