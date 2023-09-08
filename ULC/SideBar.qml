@@ -1,12 +1,9 @@
 import QtQuick
 
-Item {
-    property alias widthOfSideBar: sideBarForm.width
-    property alias heightOfSideBar: sideBarForm.height
-
-
+Rectangle {
     SideBarForm {
         id: sideBarForm
+        anchors.fill: parent
 
     } //SideBarForm
 }
