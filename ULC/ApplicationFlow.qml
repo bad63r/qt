@@ -29,7 +29,7 @@ Item {
                 anchors.fill: parent
                 color: selectedWorkspace.palette.window
 
-
+            USwitch{}
             }
         } //Item
 
