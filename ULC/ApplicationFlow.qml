@@ -1,5 +1,6 @@
 import QtQuick
 import QtQuick.Layouts 1.0
+import QtQuick.Controls 2.0
 
 Item {
     id:root
@@ -10,7 +11,7 @@ Item {
         spacing: 0
 
         Rectangle {
-            id:redRectangle
+            id:rectangleSideBar
             Layout.preferredWidth: 355
             Layout.fillHeight: true
                 SideBar{
@@ -27,6 +28,8 @@ Item {
                 id: blueRectangle
                 anchors.fill: parent
                 color: selectedWorkspace.palette.window
+
+
             }
         } //Item
 
