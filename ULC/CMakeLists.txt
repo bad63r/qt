@@ -31,10 +31,13 @@ set(qml_resources_files
     "SideBar.qml"
     "SideBarForm.qml"
     "CmdButton.qml"
+    "USwitch.qml"
     "images/icons/terminal/terminal1.png"
     "images/icons/terminal/terminal2.png"
     "images/icons/terminal/terminal3.png"
     "images/icons/terminal/terminal4.png"
+    "images/icons/switch/check.png"
+    "images/icons/switch/uncheck.png"
 
 )
 
