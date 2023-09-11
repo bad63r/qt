@@ -61,7 +61,9 @@ Item {
                         x: powerText.width + 20
                         onCheckedChanged: {
                             if (checked === true) {
-                                mySerialCommunication.infoCheck();
+                                mySerialCommunication.ledON();
+                            } else {
+                                mySerialCommunication.ledOff();
                             }
                         } //onCheckedChanged
 
