@@ -2,8 +2,14 @@ import QtQuick
 import QtQuick.Layouts 1.0
 import QtQuick.Controls 2.0
 
+import SerialCommunication 1.0
+
 Item {
     id:root
+
+    SerialCommunicationType{
+        id: mySerialCommunication
+    }
 
     RowLayout{
         id: layout
@@ -17,8 +23,7 @@ Item {
                 SideBar{
                     anchors.fill: parent
                 }
-
-        }
+        } //Rectangle
 
         Item {
             id: selectedWorkspace
@@ -54,6 +59,11 @@ Item {
                     USwitch{
                         id: blinkSwitch
                         x: powerText.width + 20
+                        onCheckedChanged: {
+                            if (checked === true) {
+                                mySerialCommunication.infoCheck();
+                            }
+                        } //onCheckedChanged
 
                     } //USwitch
 
@@ -63,27 +73,9 @@ Item {
                         text: qsTr("Blink")
                         font.pixelSize: 33
                     } //Text
-                }
+                } //Item
 
-
-
-
-//                USwitch{
-//                    id: powerSwitch
-//                    x: blueRectangle.width/2 - powerSwitch.width +50
-//                    y: 200
-//                } //USwitch
-
-//                Text {
-//                    id: powerText
-//                    x: blueRectangle.width/2 - 2*powerSwitch.width +50
-//                    y: 210
-//                    text: qsTr("Power")
-//                    font.pixelSize: 33
-//                } //Text
             } //Rectangle
         } //Item
-
-
-    }
+    } //RowLayout
 }

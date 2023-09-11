@@ -10,6 +10,8 @@ qt_standard_project_setup()
 
 qt_add_executable(appULC
     main.cpp
+    serialcommunication.h
+    serialcommunication.cpp
 )
 
 set_target_properties(appULC PROPERTIES

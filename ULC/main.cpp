@@ -1,10 +1,16 @@
 #include <QGuiApplication>
 #include <QQmlApplicationEngine>
+//#include <QQmlContext>
+
+#include "serialcommunication.h"
 
 
 int main(int argc, char *argv[])
 {
     QGuiApplication app(argc, argv);
+
+//    serialCommunication mySerial;
+    qmlRegisterType< serialCommunication>("SerialCommunication",1,0, "SerialCommunicationType");
 
     QQmlApplicationEngine engine;
     const QUrl url("qrc:/Main.qml");
