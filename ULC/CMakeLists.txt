@@ -35,6 +35,7 @@ set(qml_resources_files
     "SideBarForm.qml"
     "CmdButton.qml"
     "USwitch.qml"
+    "SerialSettings.qml"
     "images/icons/terminal/terminal1.png"
     "images/icons/terminal/terminal2.png"
     "images/icons/terminal/terminal3.png"

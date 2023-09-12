@@ -66,7 +66,6 @@ Item {
                                 mySerialCommunication.ledOff();
                             }
                         } //onCheckedChanged
-
                     } //USwitch
 
                     Text {
@@ -80,4 +79,18 @@ Item {
             } //Rectangle
         } //Item
     } //RowLayout
+
+    SerialSettings{
+        id:serialSettings
+        width: parent.width
+        height: 0.7*parent.height
+    }
+
+    Button{
+        id: testButton
+        text:"Click"
+        onClicked: serialSettings.open()
+    }
+
+
 }
