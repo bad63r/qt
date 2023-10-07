@@ -5,7 +5,8 @@ serialCommunication::serialCommunication(QObject *parent)
     : QObject{parent}
 {
     m_serialPort = new QSerialPort();
-    m_serialPort->setPortName("/dev/ttyACM0");
+    //m_serialPort->setPortName("/dev/ttyACM0");
+    m_serialPort->setPortName(m_portName);
     m_serialPort->setBaudRate(QSerialPort::BaudRate::Baud9600);
     m_serialPort->setParity(QSerialPort::Parity::NoParity);
     m_serialPort->setDataBits(QSerialPort::DataBits::Data8);
@@ -39,4 +40,17 @@ void serialCommunication::ledOff()
     }
 
     //m_serialPort->close();
+}
+
+QString serialCommunication::getPortName()
+{
+    return m_portName;
+}
+
+void serialCommunication::setPortName(QString entered_name)
+{
+    if (entered_name != m_portName) {
+         m_portName = entered_name;
+         emit portNameChanged();
+    }
 }

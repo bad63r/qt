@@ -9,6 +9,7 @@ Item {
 
     SerialCommunicationType{
         id: mySerialCommunication
+        portName: "/dev/ttyACM0"
     }
 
     RowLayout{
