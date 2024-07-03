@@ -1,0 +1,30 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "bad63r@gmail.com",
+                "Name": "Tomislav Pap"
+            }
+        ],
+        "Category": "Multimedia",
+        "Description": "Tomi is trying to make first KDE Plasmoid",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "tablet",
+            "handset",
+            "desktop"
+        ],
+        "Icon": "im-youtube",
+        "Id": "com.github.bad63r.myFirstPlasmoid",
+        "License": "GPL-2.0+",
+        "Name": "myFirstPlasmoid",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.0",
+        "Website": "I dont have it yet"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-StandAloneApp": true
+}
