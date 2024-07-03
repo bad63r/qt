@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="/qt/qml/HeartRateGame">
-    <file alias="qmldir">/home/bad63r/Documents/qt/build-heartrate-game-Desktop_Qt_6_5_3_GCC_64bit-Debug/HeartRateGame/qmldir</file>
-  </qresource>
-</RCC>
-
