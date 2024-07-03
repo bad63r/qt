@@ -1,0 +1,118 @@
+{
+    "classes": [
+        {
+            "classInfos": [
+                {
+                    "name": "QML.Element",
+                    "value": "auto"
+                },
+                {
+                    "name": "QML.Creatable",
+                    "value": "false"
+                },
+                {
+                    "name": "QML.UncreatableReason",
+                    "value": "This class is not intended to be created directly"
+                }
+            ],
+            "className": "DeviceFinder",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "scanning",
+                    "notify": "scanningChanged",
+                    "read": "scanning",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "devices",
+                    "notify": "devicesChanged",
+                    "read": "devices",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QVariant",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "DeviceFinder",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "scanningChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "devicesChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "startSearch",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "address",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "connectToService",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "device",
+                            "type": "QBluetoothDeviceInfo"
+                        }
+                    ],
+                    "name": "addDevice",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QBluetoothDeviceDiscoveryAgent::Error"
+                        }
+                    ],
+                    "name": "scanError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "name": "scanFinished",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "BluetoothBaseClass"
+                }
+            ]
+        }
+    ],
+    "inputFile": "devicefinder.h",
+    "outputRevision": 68
+}

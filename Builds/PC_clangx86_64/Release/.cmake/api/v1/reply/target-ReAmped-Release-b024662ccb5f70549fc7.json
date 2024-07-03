@@ -1,0 +1,1585 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libReAmped_x86_64.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"_qt_internal_create_executable",
+			"qt6_add_executable",
+			"qt_add_executable",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"qt6_add_qml_module",
+			"qt_add_qml_module",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"_qt_internal_find_third_party_dependencies",
+			"set_property",
+			"add_dependencies",
+			"qt6_target_qml_sources",
+			"target_include_directories",
+			"_qt_internal_qml_type_registration",
+			"target_sources",
+			"qt6_extract_metatypes",
+			"__qt_propagate_generated_resource",
+			"_qt_internal_process_resource",
+			"qt6_add_resources",
+			"_qt_internal_target_enable_qmlcachegen",
+			"_qt_internal_expose_deferred_files_to_ide",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"CMakeLists.txt",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Quick/Qt6QuickTargets.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Qml/Qt6QmlMacros.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake",
+			"/home/bad63r/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Gui/Qt6GuiVersionlessTargets.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/FindGLESv2.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Network/Qt6NetworkVersionlessTargets.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Qml/Qt6QmlDependencies.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Qml/Qt6QmlConfig.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/Qt6Targets.cmake",
+			"/home/bad63r/Qt/Tools/CMake/share/cmake-3.27/Modules/FindThreads.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/Qt6Dependencies.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:679:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 741,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 549,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 574,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 58,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 4,
+				"parent" : 7
+			},
+			{
+				"command" : 8,
+				"file" : 4,
+				"line" : 157,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 52,
+				"parent" : 10
+			},
+			{
+				"file" : 2,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 61,
+				"parent" : 12
+			},
+			{
+				"command" : 10,
+				"file" : 1,
+				"line" : 16,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 686,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 369,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 40,
+				"parent" : 10
+			},
+			{
+				"file" : 10,
+				"parent" : 17
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 39,
+				"parent" : 18
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 20
+			},
+			{
+				"file" : 7,
+				"parent" : 21
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 55,
+				"parent" : 22
+			},
+			{
+				"file" : 6,
+				"parent" : 23
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 24
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 26
+			},
+			{
+				"file" : 12,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 55,
+				"parent" : 28
+			},
+			{
+				"file" : 11,
+				"parent" : 29
+			},
+			{
+				"command" : 6,
+				"file" : 11,
+				"line" : 61,
+				"parent" : 30
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 52,
+				"parent" : 28
+			},
+			{
+				"file" : 13,
+				"parent" : 32
+			},
+			{
+				"command" : 6,
+				"file" : 13,
+				"line" : 61,
+				"parent" : 33
+			},
+			{
+				"command" : 7,
+				"file" : 12,
+				"line" : 40,
+				"parent" : 28
+			},
+			{
+				"file" : 15,
+				"parent" : 35
+			},
+			{
+				"command" : 13,
+				"file" : 15,
+				"line" : 30,
+				"parent" : 36
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 36,
+				"parent" : 37
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 38
+			},
+			{
+				"file" : 14,
+				"parent" : 39
+			},
+			{
+				"command" : 5,
+				"file" : 14,
+				"line" : 84,
+				"parent" : 40
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 42
+			},
+			{
+				"file" : 19,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 19,
+				"line" : 41,
+				"parent" : 44
+			},
+			{
+				"file" : 18,
+				"parent" : 45
+			},
+			{
+				"command" : 12,
+				"file" : 18,
+				"line" : 39,
+				"parent" : 46
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 111,
+				"parent" : 47
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 48
+			},
+			{
+				"file" : 17,
+				"parent" : 49
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 55,
+				"parent" : 50
+			},
+			{
+				"file" : 16,
+				"parent" : 51
+			},
+			{
+				"command" : 6,
+				"file" : 16,
+				"line" : 61,
+				"parent" : 52
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 550,
+				"parent" : 2
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 37,
+				"parent" : 8
+			},
+			{
+				"file" : 20,
+				"parent" : 55
+			},
+			{
+				"command" : 6,
+				"file" : 20,
+				"line" : 61,
+				"parent" : 56
+			},
+			{
+				"command" : 7,
+				"file" : 4,
+				"line" : 112,
+				"parent" : 8
+			},
+			{
+				"file" : 22,
+				"parent" : 58
+			},
+			{
+				"command" : 13,
+				"file" : 22,
+				"line" : 24,
+				"parent" : 59
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 36,
+				"parent" : 60
+			},
+			{
+				"command" : 8,
+				"file" : 8,
+				"line" : 76,
+				"parent" : 61
+			},
+			{
+				"file" : 21,
+				"parent" : 62
+			},
+			{
+				"command" : 14,
+				"file" : 21,
+				"line" : 238,
+				"parent" : 63
+			},
+			{
+				"command" : 16,
+				"file" : 5,
+				"line" : 610,
+				"parent" : 15
+			},
+			{
+				"command" : 15,
+				"file" : 5,
+				"line" : 2289,
+				"parent" : 65
+			},
+			{
+				"command" : 18,
+				"file" : 5,
+				"line" : 517,
+				"parent" : 15
+			},
+			{
+				"command" : 17,
+				"file" : 5,
+				"line" : 2595,
+				"parent" : 67
+			},
+			{
+				"command" : 17,
+				"file" : 5,
+				"line" : 2620,
+				"parent" : 67
+			},
+			{
+				"command" : 20,
+				"file" : 5,
+				"line" : 2425,
+				"parent" : 67
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1136,
+				"parent" : 70
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2586,
+				"parent" : 67
+			},
+			{
+				"command" : 23,
+				"file" : 5,
+				"line" : 561,
+				"parent" : 15
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 73
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 2055,
+				"parent" : 74
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1708,
+				"parent" : 75
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 600,
+				"parent" : 15
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 24,
+				"file" : 5,
+				"line" : 2176,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 1038,
+				"parent" : 79
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2072,
+				"parent" : 65
+			},
+			{
+				"command" : 19,
+				"file" : 5,
+				"line" : 2225,
+				"parent" : 65
+			},
+			{
+				"command" : 23,
+				"file" : 5,
+				"line" : 2308,
+				"parent" : 65
+			},
+			{
+				"command" : 22,
+				"file" : 0,
+				"line" : 314,
+				"parent" : 106
+			},
+			{
+				"command" : 21,
+				"file" : 0,
+				"line" : 2055,
+				"parent" : 107
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1708,
+				"parent" : 108
+			},
+			{
+				"file" : 1,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 26,
+				"file" : 23,
+				"line" : 1,
+				"parent" : 110
+			},
+			{
+				"command" : 25,
+				"file" : 0,
+				"line" : 704,
+				"parent" : 111
+			},
+			{
+				"command" : 19,
+				"file" : 0,
+				"line" : 1792,
+				"parent" : 112
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O3 -DNDEBUG -std=gnu++17 -fPIC -fvisibility=default -fcolor-diagnostics"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-fPIC"
+				},
+				{
+					"backtrace" : 54,
+					"fragment" : "-pthread"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "QT_BLUETOOTH_LIB"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_NETWORK_LIB"
+				},
+				{
+					"backtrace" : 54,
+					"define" : "QT_NO_DEBUG"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QMLINTEGRATION_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QMLMODELS_LIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "QT_QML_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "QT_QUICK_LIB"
+				},
+				{
+					"define" : "ReAmped_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 0,
+					"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/ReAmped_autogen/include"
+				},
+				{
+					"backtrace" : 68,
+					"path" : "/home/bad63r/Documents/qt/ReAmped"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtQml/6.5.3"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtQml/6.5.3/QtQml"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtCore/6.5.3"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtCore/6.5.3/QtCore"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtCore"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/mkspecs/android-clang"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtQml"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtQmlIntegration"
+				},
+				{
+					"backtrace" : 69,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtQuick"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtGui"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtQmlModels"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtOpenGL"
+				},
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/include/QtBluetooth"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					54
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				43
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/bad63r/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 66,
+			"id" : "ReAmped_tooling::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "ReAmped_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 0,
+			"id" : "ReAmped_autogen::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ReAmped::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 5,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Wl,--gc-sections -Qunused-arguments -Wl,--no-undefined",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6Quick_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6Bluetooth_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6QmlModels_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6Qml_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6OpenGL_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6Gui_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/home/bad63r/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libGLESv2.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 41,
+				"fragment" : "/home/bad63r/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/x86_64-linux-android/23/libEGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 53,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6Network_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 54,
+				"fragment" : "/home/bad63r/Qt/6.5.3/android_x86_64/lib/libQt6Core_x86_64.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 57,
+				"fragment" : "-llog",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 64,
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-latomic -lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "/home/bad63r/Android/Sdk/ndk/25.1.8937393/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+		}
+	},
+	"name" : "ReAmped",
+	"nameOnDisk" : "libReAmped_x86_64.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				4,
+				5,
+				6,
+				8,
+				10,
+				12,
+				14,
+				17,
+				18,
+				20,
+				22,
+				24,
+				26,
+				28,
+				30,
+				32,
+				34,
+				36,
+				38,
+				40,
+				42,
+				43
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				7,
+				9,
+				11,
+				13,
+				15
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				3,
+				16,
+				19,
+				21,
+				23,
+				25,
+				27,
+				29,
+				31,
+				33,
+				35,
+				37,
+				39,
+				41,
+				44,
+				48,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				45,
+				46,
+				47
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/ReAmped_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 4,
+			"path" : "heartrate-global.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/meta_types/qt6reamped_release_metatypes.json.gen",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 72,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/reamped_qmltyperegistrations.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 76,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qrc_qmake_ReAmped.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "bluetoothbaseclass.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "bluetoothbaseclass.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "connectionhandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "connectionhandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "devicefinder.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "devicefinder.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "devicehandler.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "devicehandler.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "deviceinfo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "deviceinfo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 78,
+			"path" : "App.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_qmlcache_loader.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_App_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"path" : "BluetoothAlarmDialog.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_BluetoothAlarmDialog_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 84,
+			"path" : "BottomLine.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 85,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_BottomLine_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 86,
+			"path" : "Connect.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 87,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Connect_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 88,
+			"path" : "GameButton.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 89,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_GameButton_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 90,
+			"path" : "GamePage.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 91,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_GamePage_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 92,
+			"path" : "ReAmpedSettings.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 93,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_ReAmpedSettings_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 94,
+			"path" : "Measure.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 95,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Measure_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 96,
+			"path" : "SplashScreen.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 97,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_SplashScreen_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 98,
+			"path" : "Stats.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 99,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Stats_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 100,
+			"path" : "StatsLabel.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 101,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_StatsLabel_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 102,
+			"path" : "TitleBar.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 103,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_TitleBar_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 104,
+			"path" : "Main.qml",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 105,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Main_qml.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 109,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qrc_ReAmped_raw_qml_0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 113,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/ReAmped/qmldir",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 113,
+			"path" : "images/bt_off_to_on.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 113,
+			"path" : "images/heart.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 113,
+			"path" : "images/logo.png",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/ReAmped_autogen/timestamp",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/meta_types/qt6reamped_release_metatypes.json.gen.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/reamped_qmltyperegistrations.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qrc_qmake_ReAmped.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_qmlcache_loader.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_App_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_BluetoothAlarmDialog_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_BottomLine_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Connect_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_GameButton_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_GamePage_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_ReAmpedSettings_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Measure_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_SplashScreen_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Stats_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_StatsLabel_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_TitleBar_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qmlcache/ReAmped_Main_qml.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/.rcc/qrc_ReAmped_raw_qml_0.cpp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/ReAmped_autogen/timestamp.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release/meta_types/ReAmped_json_file_list.txt.rule",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 54,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6core_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6qml_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 16,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6network_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6quick_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6gui_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6qmlmodels_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6opengl_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 6,
+			"path" : "/home/bad63r/Qt/6.5.3/android_x86_64/metatypes/qt6bluetooth_relwithdebinfo_metatypes.json",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

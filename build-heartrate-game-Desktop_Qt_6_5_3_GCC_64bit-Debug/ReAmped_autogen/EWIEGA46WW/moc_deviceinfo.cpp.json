@@ -1,0 +1,54 @@
+{
+    "classes": [
+        {
+            "className": "DeviceInfo",
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "deviceName",
+                    "notify": "deviceChanged",
+                    "read": "getName",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "deviceAddress",
+                    "notify": "deviceChanged",
+                    "read": "getAddress",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "DeviceInfo",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "deviceChanged",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "deviceinfo.h",
+    "outputRevision": 68
+}

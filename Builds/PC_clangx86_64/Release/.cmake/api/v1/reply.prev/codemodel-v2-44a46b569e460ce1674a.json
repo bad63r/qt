@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-ab883cbe903bb61cd4c3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ReAmped",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped-Release-dff5d89a512aa89e0dab.json",
+					"name" : "ReAmped",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_autogen-Release-6539ddfbadb82b741d34.json",
+					"name" : "ReAmped_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_autogen_timestamp_deps-Release-4018595e6dbc99147fcb.json",
+					"name" : "ReAmped_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_make_aab-Release-c2aa914405ea953deb13.json",
+					"name" : "ReAmped_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_make_apk-Release-cedac80bed9c91332ced.json",
+					"name" : "ReAmped_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_prepare_apk_dir-Release-14409d81ff36cdceb4ec.json",
+					"name" : "ReAmped_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_qmllint-Release-b5f8375438415252b237.json",
+					"name" : "ReAmped_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_qmllint_json-Release-bcf4b0e0ffb1d95ef5a7.json",
+					"name" : "ReAmped_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_qmllint_module-Release-d920815ba4ef08785d19.json",
+					"name" : "ReAmped_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_qmltyperegistration-Release-bfd5c7a7154410e576b6.json",
+					"name" : "ReAmped_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ReAmped_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ReAmped_tooling-Release-a287d01700b698606d87.json",
+					"name" : "ReAmped_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Release-61356366c5f5eac9b64f.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Release-06b738f87058a7df8b65.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-16caa6ddab9be4fe4fd0.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-20a98000106f1ba12162.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-6ab295842f0e25f50c73.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-f1fe6be192b651f33959.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Release-9a42bccaa00c3015bb14.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Release-5de8b0a4938b161e2928.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Release-f614e260e3453f6619b9.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bad63r/Documents/qt/Builds/PC_clangx86_64/Release",
+		"source" : "/home/bad63r/Documents/qt/ReAmped"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

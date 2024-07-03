@@ -1,0 +1,14 @@
+/qt/qml/HeartRateGame/App.qml
+/qt/qml/HeartRateGame/BluetoothAlarmDialog.qml
+/qt/qml/HeartRateGame/BottomLine.qml
+/qt/qml/HeartRateGame/Connect.qml
+/qt/qml/HeartRateGame/GameButton.qml
+/qt/qml/HeartRateGame/GamePage.qml
+/qt/qml/HeartRateGame/ReAmpedSettings.qml
+/qt/qml/HeartRateGame/Measure.qml
+/qt/qml/HeartRateGame/SplashScreen.qml
+/qt/qml/HeartRateGame/Stats.qml
+/qt/qml/HeartRateGame/StatsLabel.qml
+/qt/qml/HeartRateGame/TitleBar.qml
+/qt/qml/HeartRateGame/RButton.qml
+/qt/qml/HeartRateGame/Main.qml

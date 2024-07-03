@@ -1,0 +1,18 @@
+module HeartRateGame
+typeinfo ReAmped.qmltypes
+prefer :/qt/qml/HeartRateGame/
+App 1.0 App.qml
+BluetoothAlarmDialog 1.0 BluetoothAlarmDialog.qml
+BottomLine 1.0 BottomLine.qml
+Connect 1.0 Connect.qml
+GameButton 1.0 GameButton.qml
+GamePage 1.0 GamePage.qml
+singleton ReAmpedSettings 1.0 ReAmpedSettings.qml
+Measure 1.0 Measure.qml
+SplashScreen 1.0 SplashScreen.qml
+Stats 1.0 Stats.qml
+StatsLabel 1.0 StatsLabel.qml
+TitleBar 1.0 TitleBar.qml
+RButton 1.0 RButton.qml
+Main 1.0 Main.qml
+

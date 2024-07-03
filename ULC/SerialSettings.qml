@@ -10,6 +10,13 @@ Drawer {
     edge:Qt.TopEdge
     interactive: false
 
+    property string portName: "/dev/ttyACM0"
+    property string dataBits: "8"
+    property string baudRate: "9600"
+    property string stopBits: "1"
+    property string parity: "none"
+    property string flowControl: "none"
+
     Rectangle{
         id:drawerBackground
         anchors.fill: parent
@@ -82,7 +89,7 @@ Drawer {
                                     editable: true
                                     model: ListModel {
                                         id: portNamesModel
-                                        ListElement { text: "/dev/ttyACM0" }
+                                        ListElement { text: "/dev/ttyACM0"}
                                         ListElement { text: "/dev/ttyACM1" }
                                         ListElement { text: "/dev/ttyUSB0" }
                                         ListElement { text: "COM3" }
@@ -90,18 +97,11 @@ Drawer {
                                     onAccepted: {
                                         if (find(editText) === -1) {
                                             portNamesModel.append({text: editText})
-                                            console.log("Hi there")
-                                            console.log("Currently selected:",currentValue)
-                                        } else {
-                                            console.log("Currently selected:",currentValue)
                                         }
                                     }
                                     onCurrentIndexChanged: {
                                         console.log("text is:",portNamesModel.get(currentIndex).text)
-
                                     }
-                                    onActivated: console.log("this is when selected")
-
                                 } //ComboBox
                             } //Item
 
@@ -132,20 +132,13 @@ Drawer {
                                     model: ListModel {
                                         id: bitsModel
                                         ListElement { text: "8" }
-                                        ListElement { text: "9" }
-                                        ListElement { text: "10" }
-                                        ListElement { text: "11" }
-                                        ListElement { text: "12" }
-                                        ListElement { text: "13" }
-                                        ListElement { text: "14" }
-                                        ListElement { text: "15" }
+                                        ListElement { text: "7" }
+                                        ListElement { text: "6" }
+                                        ListElement { text: "5" }
                                     }
                                     onAccepted: {
                                         if (find(editText) === -1) {
                                             bitsModel.append({text: editText})
-                                            console.log("Hi there")
-                                            console.log("Currently selected:",currentValue)
-                                        } else {
                                             console.log("Currently selected:",currentValue)
                                         }
                                     }

@@ -1,0 +1,179 @@
+{
+	"backtrace" : 15,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_qt_internal_create_global_android_targets_impl",
+			"_qt_internal_create_global_android_targets",
+			"include",
+			"find_package",
+			"find_dependency",
+			"_qt_internal_find_qt_dependencies",
+			"add_dependencies",
+			"qt6_android_add_apk_target",
+			"_qt_internal_android_executable_finalizer",
+			"cmake_language",
+			"_qt_internal_finalize_executable",
+			"qt6_finalize_target"
+		],
+		"files" : 
+		[
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6AndroidMacros.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6CoreConfigExtras.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"/home/bad63r/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Quick/Qt6QuickDependencies.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Quick/Qt6QuickConfig.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"CMakeLists.txt",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake",
+			"/home/bad63r/Qt/6.5.3/android_x86_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:679:EVAL"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 8,
+				"line" : 6,
+				"parent" : 0
+			},
+			{
+				"file" : 7,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 7,
+				"line" : 157,
+				"parent" : 2
+			},
+			{
+				"file" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 6,
+				"line" : 40,
+				"parent" : 4
+			},
+			{
+				"file" : 5,
+				"parent" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 111,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 76,
+				"parent" : 8
+			},
+			{
+				"file" : 2,
+				"parent" : 9
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 119,
+				"parent" : 10
+			},
+			{
+				"file" : 1,
+				"parent" : 11
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 589,
+				"parent" : 13
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 576,
+				"parent" : 14
+			},
+			{
+				"file" : 8,
+				"line" : -1,
+				"parent" : 0
+			},
+			{
+				"command" : 12,
+				"file" : 10,
+				"line" : 1,
+				"parent" : 16
+			},
+			{
+				"command" : 11,
+				"file" : 9,
+				"line" : 709,
+				"parent" : 17
+			},
+			{
+				"command" : 10,
+				"file" : 9,
+				"line" : 636,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 636,
+				"parent" : 19
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 1321,
+				"parent" : 20
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 378,
+				"parent" : 21
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 22,
+			"id" : "ReAmped_make_aab::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "aab::@6890427a1f51a3e7e1df",
+	"name" : "aab",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

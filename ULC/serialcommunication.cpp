@@ -54,3 +54,29 @@ void serialCommunication::setPortName(QString entered_name)
          emit portNameChanged();
     }
 }
+
+int serialCommunication::getDataBits()
+{
+    return m_dataBits;
+}
+
+void serialCommunication::setDataBits(int entered_bits)
+{
+    if (entered_bits != m_dataBits) {
+         m_dataBits = entered_bits;
+         emit dataBitsChanged();
+    }
+}
+
+int serialCommunication::getBaudRate()
+{
+    return m_baudRate;
+}
+
+void serialCommunication::setBaudRate(int data)
+{
+    if (data != m_baudRate) {
+         m_baudRate = data;
+         emit baudRateChanged();
+    }
+}

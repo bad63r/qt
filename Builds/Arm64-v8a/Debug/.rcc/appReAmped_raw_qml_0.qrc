@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/ReAmped/">
+    <file alias="Main.qml">/home/bad63r/Documents/qt/ReAmped/Main.qml</file>
+  </qresource>
+</RCC>
+

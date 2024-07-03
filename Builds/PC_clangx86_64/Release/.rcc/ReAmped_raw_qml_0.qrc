@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="/qt/qml/ReAmped/">
+    <file alias="App.qml">/home/bad63r/Documents/qt/ReAmped/App.qml</file>
+    <file alias="BluetoothAlarmDialog.qml">/home/bad63r/Documents/qt/ReAmped/BluetoothAlarmDialog.qml</file>
+    <file alias="BottomLine.qml">/home/bad63r/Documents/qt/ReAmped/BottomLine.qml</file>
+    <file alias="Connect.qml">/home/bad63r/Documents/qt/ReAmped/Connect.qml</file>
+    <file alias="GameButton.qml">/home/bad63r/Documents/qt/ReAmped/GameButton.qml</file>
+    <file alias="GamePage.qml">/home/bad63r/Documents/qt/ReAmped/GamePage.qml</file>
+    <file alias="ReAmpedSettings.qml">/home/bad63r/Documents/qt/ReAmped/ReAmpedSettings.qml</file>
+    <file alias="Measure.qml">/home/bad63r/Documents/qt/ReAmped/Measure.qml</file>
+    <file alias="SplashScreen.qml">/home/bad63r/Documents/qt/ReAmped/SplashScreen.qml</file>
+    <file alias="Stats.qml">/home/bad63r/Documents/qt/ReAmped/Stats.qml</file>
+    <file alias="StatsLabel.qml">/home/bad63r/Documents/qt/ReAmped/StatsLabel.qml</file>
+    <file alias="TitleBar.qml">/home/bad63r/Documents/qt/ReAmped/TitleBar.qml</file>
+    <file alias="Main.qml">/home/bad63r/Documents/qt/ReAmped/Main.qml</file>
+    <file alias="images/bt_off_to_on.png">/home/bad63r/Documents/qt/ReAmped/images/bt_off_to_on.png</file>
+    <file alias="images/heart.png">/home/bad63r/Documents/qt/ReAmped/images/heart.png</file>
+    <file alias="images/logo.png">/home/bad63r/Documents/qt/ReAmped/images/logo.png</file>
+  </qresource>
+</RCC>
+
