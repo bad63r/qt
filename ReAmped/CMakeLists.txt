@@ -50,7 +50,7 @@ set_target_properties(ReAmped PROPERTIES
 set_property(TARGET ReAmped APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/android)
 
 qt_add_qml_module(ReAmped
-    URI HeartRateGame
+    URI ReAmpedURI
     VERSION 1.0
     SOURCES
         bluetoothbaseclass.cpp bluetoothbaseclass.h

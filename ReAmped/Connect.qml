@@ -3,7 +3,7 @@
 
 pragma ComponentBehavior: Bound
 import QtQuick
-import HeartRateGame
+import ReAmpedURI
 
 GamePage {
     id: connectPage

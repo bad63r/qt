@@ -3,7 +3,7 @@
 
 import QtQuick
 import QtQuick.Layouts
-import HeartRateGame
+import ReAmpedURI
 
 Item {
     id: app

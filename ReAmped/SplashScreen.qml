@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: LicenseRef-Qt-Commercial OR BSD-3-Clause
 
 import QtQuick
-import HeartRateGame
+import ReAmpedURI
 
 Item {
     id: root

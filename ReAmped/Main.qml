@@ -4,7 +4,7 @@
 pragma ComponentBehavior: Bound
 import QtQuick
 import QtQuick.Window
-import HeartRateGame
+import ReAmpedURI
 
 Window {
     id: wroot
